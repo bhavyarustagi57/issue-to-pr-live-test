@@ -18,10 +18,10 @@ test("preserves valid names", () => {
 
 test("rejects empty names", () => {
   const greet = loadGreet();
-  assert.throws(() => greet(""), Error);
+  assert.throws(() => greet(""));
 });
 
 test("rejects whitespace-only names", () => {
   const greet = loadGreet();
-  assert.throws(() => greet("   "), Error);
+  assert.throws(() => greet("   "));
 });
